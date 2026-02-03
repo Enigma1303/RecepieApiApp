@@ -26,4 +26,5 @@ jobs:
         run: docker compose run --rm app python manage.py test
 
       - name: Run flake8
-        run: docker compose run --rm app flake8
+        run: docker compose run --rm app flake8 --config=.flake8
+
