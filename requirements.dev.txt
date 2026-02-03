@@ -1,0 +1,2 @@
+#we do it seperately as we customly want it only for development not for our deployment images 
+flake8>=3.9.2,<3.10
