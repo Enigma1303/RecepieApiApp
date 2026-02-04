@@ -3,4 +3,4 @@ max-line-length = 120
 exclude =
     migrations,
     __pycache__,
-    app/settings.py
+    app/app/settings.py
